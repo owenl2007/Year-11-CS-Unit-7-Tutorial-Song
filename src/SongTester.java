@@ -10,6 +10,7 @@ public class SongTester {
 
     private Song song = new Song("Lavender Haze", "Taylor Swift");
 
+
     @Test
     public void TestForTitleAndArtist() {
         assertEquals("Wrong title!", "Lavender Haze", song.getTitle());
@@ -31,4 +32,3 @@ public class SongTester {
     }
 
 }
-
